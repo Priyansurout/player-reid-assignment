@@ -1,0 +1,29 @@
+# --- Virtual Environment ---
+# Ignore the folder that contains all your installed Python packages.
+# Common names are venv, .venv, env, etc.
+/venv/
+/.venv/
+/env/
+
+# --- Model Files ---
+# Ignore all model weight files. They are too large for GitHub.
+# The person using your code should download them separately.
+*.pt
+
+# --- Video Files ---
+# Ignore all video files, both input and output.
+*.mp4
+
+# --- Python Cache Files ---
+# Ignore the automatically generated Python cache folder and bytecode files.
+__pycache__/
+*.pyc
+
+# --- IDE/Editor Specific Folders ---
+# Ignore configuration folders from popular editors like VSCode and PyCharm.
+.vscode/
+.idea/
+
+# --- OS Specific Files ---
+# Ignore files created by macOS Finder.
+.DS_Store
